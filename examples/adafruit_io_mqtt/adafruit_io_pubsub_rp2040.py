@@ -76,7 +76,7 @@ MQTT.set_socket(socket, esp)
 mqtt_client = MQTT.MQTT(
     broker="io.adafruit.com",
     username=secrets["aio_username"],
-    password=secrets["aio_key"],
+    password=secrets["aio_password"],
 )
 
 # Initialize an Adafruit IO MQTT Client
